@@ -158,22 +158,22 @@ A API retorna um JSON com a classe prevista pelo modelo:
 ```json
 {
   "ok": true,
-  "predictedClass": "cat",
+  "predictedClass": "dolar",
   "predictedIndex": 0,
   "confidence": 0.9231,
   "topPredictions": [
     {
-      "class": "cat",
+      "class": "real",
       "index": 0,
       "confidence": 0.9231
     },
     {
-      "class": "dog",
+      "class": "euro",
       "index": 1,
       "confidence": 0.0612
     },
     {
-      "class": "horse",
+      "class": "libra",
       "index": 2,
       "confidence": 0.0157
     }
