@@ -226,7 +226,7 @@ function startPythonWorker() {
 
         const startupTimeout = setTimeout(() => {
             reject(new Error("Timeout ao tentar carregar o modelo PyTorch."));
-        }, 30000);
+        }, 180000);
 
         rl.on("line", (line) => {
             let message;
